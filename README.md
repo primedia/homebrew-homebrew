@@ -1,7 +1,7 @@
 homebrew-riak132
 ================
 
-## Install Riak v1.3.2
+## Brew Tap to Install Riak v1.3.2
 
   * brew update
 
