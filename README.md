@@ -7,7 +7,7 @@ homebrew-riak132
 
   * brew unlink riak
 
-  * brew tap jackmorrill/riak132
+  * brew tap primedia/riak132
 
   *  brew install riak132
   
