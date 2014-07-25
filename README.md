@@ -1,13 +1,6 @@
 homebrew-riak132
 ================
 
-## Brew Tap to Install Riak v1.3.2
+## Usage
 
-  * brew update
-
-  * brew unlink riak
-
-  * brew tap primedia/riak132
-
-  *  brew install riak132
-  
+`brew tap primedia/homebrew`
