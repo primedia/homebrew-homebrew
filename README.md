@@ -1,5 +1,6 @@
-homebrew-riak132
+Primedia Homebrew Tap
 ================
+A collection of internal homebrew formulae for use within RentPath.
 
 ## Usage
 
