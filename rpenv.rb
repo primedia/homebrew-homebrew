@@ -1,19 +1,21 @@
 require "formula"
 
 class Rpenv < Formula
-  homepage "https://github.com/primedia/rpenv"
-  url "https://github.com/primedia/rpenv/archive/v1.0.0.tar.gz"
+  PACKAGE = "github.com/primedia/rpenv"
+
+  homepage "https://#{PACKAGE}"
+  url "https://#{PACKAGE}/archive/v1.0.0.tar.gz"
   sha1 "d9a918d3fa49b5527d87aa3e02e2c8b3d1ba0b5c"
-  head "https://github.com/primedia/rpenv.git"
+  head "https://#{PACKAGE}.git"
 
   depends_on "go" => :build
 
   def install
-    (buildpath + "src/github.com/primedia/rpenv").install "rpenv.go"
+    (buildpath + "src/#{PACKAGE}").install "rpenv.go"
 
     ENV["GOPATH"] = buildpath
 
-    system "go", "build", "-o", "rpenv"
+    system "go", "build", "-o", "rpenv", PACKAGE
     bin.install "rpenv"
   end
 
