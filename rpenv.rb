@@ -4,14 +4,14 @@ class Rpenv < Formula
   PACKAGE = "github.com/primedia/rpenv"
 
   homepage "https://#{PACKAGE}"
-  url "https://#{PACKAGE}/archive/v1.0.1.tar.gz"
-  sha1 "28ad08acb47675bedc16e6721e4fc16475df856b"
+  url "https://#{PACKAGE}/archive/v1.0.0.tar.gz"
+  sha1 "301e5fe3a14487fba17ecd1f94ed03a59db1a6e0"
   head "https://#{PACKAGE}.git"
 
   depends_on "go" => :build
 
   def install
-    (buildpath + "src/#{PACKAGE}").install "rpenv.go"
+    (buildpath/"src/#{PACKAGE}").install Dir["./*.go"]
 
     ENV["GOPATH"] = buildpath
 
