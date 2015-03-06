@@ -5,7 +5,7 @@ class Rpenv < Formula
 
   homepage "https://#{PACKAGE}"
   url "https://#{PACKAGE}/archive/v1.0.1.tar.gz"
-  sha1 "5a8791bac55d06e3bce7a545eecda9a8dcd6e287"
+  sha1 "c54d38cbd9df801a46d205fa1f072e6d21c5003a"
   head "https://#{PACKAGE}.git"
 
   depends_on "go" => :build
