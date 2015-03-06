@@ -1,11 +1,11 @@
 require "formula"
 
 class Rpenv < Formula
-  PACKAGE = "github.com/primedia/rpenv"
+  PACKAGE = "github.com/rentpath/rpenv"
 
   homepage "https://#{PACKAGE}"
-  url "https://#{PACKAGE}/archive/v1.0.0.tar.gz"
-  sha1 "301e5fe3a14487fba17ecd1f94ed03a59db1a6e0"
+  url "https://#{PACKAGE}/archive/v1.0.2.tar.gz"
+  sha1 "5a8791bac55d06e3bce7a545eecda9a8dcd6e287"
   head "https://#{PACKAGE}.git"
 
   depends_on "go" => :build
