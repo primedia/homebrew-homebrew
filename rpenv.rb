@@ -4,7 +4,7 @@ class Rpenv < Formula
   PACKAGE = "github.com/rentpath/rpenv"
 
   homepage "https://#{PACKAGE}"
-  url "https://#{PACKAGE}/archive/v1.0.2.tar.gz"
+  url "https://#{PACKAGE}/archive/v1.0.1.tar.gz"
   sha1 "5a8791bac55d06e3bce7a545eecda9a8dcd6e287"
   head "https://#{PACKAGE}.git"
 
