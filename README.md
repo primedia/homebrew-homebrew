@@ -19,4 +19,4 @@ A collection of internal homebrew formulae for use within RentPath.
 ## Updating Formulae
 See the info at https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md
 
-To generate a SHA1 checksum on OS X, run `openssl sha1 <path to file>`
+To generate a SHA256 checksum on OS X, run `shasum -a 256 <path to file>`
