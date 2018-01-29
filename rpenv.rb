@@ -11,7 +11,7 @@ class Rpenv < Formula
   depends_on "go" => :build
 
   def install
-    (buildpath/"src/#{PACKAGE}").install Dir["./*.go"]
+    (buildpath/"src/#{PACKAGE}").install Dir["./*"]
 
     ENV["GOPATH"] = buildpath
 
