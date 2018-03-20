@@ -4,8 +4,8 @@ class Rpenv < Formula
   PACKAGE = "github.com/rentpath/rpenv"
 
   homepage "https://#{PACKAGE}"
-  url "https://#{PACKAGE}/archive/v3.0.5.tar.gz"
-  sha256 "e636877534b1fdf1f59999a75028f410dafc23a658d7262805a929c0879fa4c0"
+  url "https://#{PACKAGE}/archive/v3.1.0.tar.gz"
+  sha256 "9e3dab8d6b787b41dfa1d18cbdd6d4f44e319bb5dc1cd80c6205375710cd1f15"
   head "https://#{PACKAGE}.git"
 
   depends_on "go" => :build
